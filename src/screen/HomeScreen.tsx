@@ -1,10 +1,14 @@
-import Sidebar from "../components/SideBar";
+import React from "react";
+import Sidebar from "../components/Sidebar";
+import Hero from "../components/Hero";
 
-const HomeComp = ()=>{
-    return(
-    <div>
-       <Sidebar/>
+const HomeComp: React.FC = () => {
+  return (
+    <div className="flex">
+      <Sidebar />
+      <Hero />
     </div>
-    )
-}
-export default HomeComp
+  );
+};
+
+export default HomeComp;
