@@ -1,5 +1,5 @@
-import React from "react";
-import Sidebar from "../components/Sidebar";
+import React from "react"
+import Sidebar from "../components/SideBar";
 import Hero from "../components/Hero";
 
 const HomeComp: React.FC = () => {
